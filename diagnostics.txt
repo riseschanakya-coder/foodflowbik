@@ -1,0 +1,93 @@
+﻿app/(tabs)/cart.tsx(6,374): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: ImageProps): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+  Overload 2 of 2, '(props: ImageProps, context: any): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+app/(tabs)/cart.tsx(7,94): error TS2322: Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/cart.tsx(7,822): error TS2322: Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/favorites.tsx(7,173): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; margin: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; margin: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; margin: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; margin: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/favorites.tsx(8,32): error TS2345: Argument of type '{ safe: { flex: number; backgroundColor: string; }; heading: { fontSize: number; fontWeight: "850"; margin: number; }; empty: { alignItems: "center"; paddingTop: number; }; title: { fontSize: number; fontWeight: "800"; marginTop: number; }; sub: { ...; }; }' is not assignable to parameter of type '{ safe: { flex: number; backgroundColor: string; }; heading: { fontSize: number; fontWeight: "850"; margin: number; }; empty: { alignItems: "center"; paddingTop: number; }; title: { fontSize: number; fontWeight: "800"; marginTop: number; }; sub: { ...; }; } & NamedStyles<...>'.
+  Property 'heading' is incompatible with index signature.
+    Type '{ fontSize: number; fontWeight: "850"; margin: number; }' is not assignable to type 'TextStyle | ViewStyle | ImageStyle'.
+      Types of property 'fontWeight' are incompatible.
+        Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/index.tsx(10,7): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/index.tsx(11,7): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontWeight' are incompatible.
+          Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/index.tsx(12,32): error TS2345: Argument of type '{ safe: { flex: number; backgroundColor: string; }; header: { paddingHorizontal: number; paddingTop: number; paddingBottom: number; flexDirection: "row"; justifyContent: "space-between"; alignItems: "center"; }; ... 10 more ...; sectionTitle: { ...; }; }' is not assignable to parameter of type '{ safe: { flex: number; backgroundColor: string; }; header: { paddingHorizontal: number; paddingTop: number; paddingBottom: number; flexDirection: "row"; justifyContent: "space-between"; alignItems: "center"; }; ... 10 more ...; sectionTitle: { ...; }; } & NamedStyles<...>'.
+  Property 'sectionTitle' is incompatible with index signature.
+    Type '{ fontSize: number; fontWeight: "850"; color: string; marginHorizontal: number; marginTop: number; marginBottom: number; }' is not assignable to type 'TextStyle | ViewStyle | ImageStyle'.
+      Types of property 'fontWeight' are incompatible.
+        Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/(tabs)/profile.tsx(7,343): error TS2322: Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/restaurant/[id].tsx(8,339): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: ImageProps): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+  Overload 2 of 2, '(props: ImageProps, context: any): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+app/restaurant/[id].tsx(8,1766): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: ImageProps): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+  Overload 2 of 2, '(props: ImageProps, context: any): Image', gave the following error.
+    Type 'TextStyle | ViewStyle | ImageStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+      Type 'TextStyle' is not assignable to type 'StyleProp<ImageStyle>'.
+        Type 'TextStyle' is not assignable to type 'ImageStyle'.
+          Types of property 'overflow' are incompatible.
+            Type '"visible" | "hidden" | "scroll" | undefined' is not assignable to type '"visible" | "hidden" | undefined'.
+              Type '"scroll"' is not assignable to type '"visible" | "hidden" | undefined'.
+app/restaurant/[id].tsx(9,348): error TS2322: Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.
+app/restaurant/[id].tsx(9,964): error TS2322: Type '"850"' is not assignable to type '"bold" | "light" | "normal" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900" | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | "ultralight" | "thin" | "medium" | ... 6 more ... | undefined'.

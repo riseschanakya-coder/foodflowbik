@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FoodFlow",
+    "slug": "foodflow",
+    "scheme": "foodflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.foodflow.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/foodflow"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
